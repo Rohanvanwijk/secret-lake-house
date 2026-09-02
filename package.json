@@ -1,23 +1,14 @@
 {
   "name": "secret-lake-house",
-  "version": "1.0.0",
-  "description": "Secret Lake House static site",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "exit 0",
-    "deploy": "exit 0"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Rohanvanwijk/secret-lake-house.git"
-  },
-  "keywords": [],
-  "author": "Rohan & Kimlay",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/Rohanvanwijk/secret-lake-house/issues"
-  },
-  "homepage": "https://github.com/Rohanvanwijk/secret-lake-house#readme"
+  "devDependencies": {
+    "vite": "^8.2.2"
+  }
 }
