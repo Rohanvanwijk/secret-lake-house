@@ -1,0 +1,10 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "pbkdf2_sha256$b8930be8eaae2caac83f398038d568dd$d0d20baf7be8338e814f2c3886ff94f25ce16939b1124c9e3445d46d3174be36",
+      "role": "owner",
+      "created_at": 1788008195
+    }
+  ]
+}

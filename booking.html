@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Book Direct | Secret Lake House Kampot</title>
+  <meta name="description" content="Book rooms and reserve dining huts direct with Secret Lake House in Kampot.">
+  <link rel="stylesheet" href="styles.css?v=88">
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+  <script src="script.js?v=45" defer></script>
+</head>
+<body class="booking-page">
+  <header class="site-header">
+    <nav class="nav">
+      <a class="logo" href="index.html"><img src="assets/logo.png" alt="Secret Lake House"></a>
+      <div class="menu"><a href="index.html">Home</a><a href="accommodation.html">Accommodation</a><a href="dining.html">Dining</a><a href="experiences.html">Experiences</a><a href="about.html">About</a><a href="contact.html">Contact</a><a class="active" href="booking.html">Booking</a></div>
+      <a class="btn" href="https://wa.me/85511969568"><i data-lucide="message-circle"></i> Book Direct</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-media"><img src="assets/lake-sunset.jpg" alt="Book Secret Lake House direct"></div>
+      <div class="hero-content">
+        <div class="hero-copy">
+          <p class="eyebrow">Direct booking</p>
+          <h1>Book Direct</h1>
+          <p class="lead">Check room options, reserve a poolside restaurant table, one of the three wooden huts reached by the 1.2m-wide bridge, or the Bamboo Hut, or message the team for the fastest confirmation. Open daily from 7:00am to 9:00pm, with dinner available by advance booking only.</p>
+          <div class="actions">
+            <a class="btn" href="tel:+85590298687"><i data-lucide="phone"></i> Call Booking</a>
+            <a class="btn secondary" href="https://t.me/secretlakehousekampot"><span data-telegram-icon></span> Telegram Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="booking-panel" data-widget data-submit-email="true">
+      <div class="booking-shell">
+        <div class="mode-row"><button class="active" data-mode="stay">Stay</button><button data-mode="dine">Dine</button></div>
+        <form class="booking-form" action="https://formsubmit.co/info@secretlakehouse.com" method="post">
+          <input type="hidden" name="_subject" value="Secret Lake House Direct Booking Request">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="true">
+          <input type="hidden" name="request_type" value="Stay booking request" data-request-type>
+          <input class="spam-check" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <div class="field"><label data-label-one>Check-in</label><input type="date" name="check_in" data-field-one required></div>
+          <div class="field"><label data-label-two>Check-out</label><input type="date" name="check_out" data-field-two required></div>
+          <div class="field"><label data-label-three>Room type</label><select data-select name="room_type"><option>Khmer House - Suite Room</option><option>Khmer House - Twin Deluxe Room</option><option>Bungalow - Family Room</option><option>Bungalow - Friend Room</option></select></div>
+          <div class="submit-box"><button type="submit" data-action>Check Availability</button></div>
+        </form>
+      </div>
+    </div>
+
+    <section class="section mist">
+      <div class="inner grid-3">
+        <article class="card"><div class="card-body"><h3>Book a Room</h3><p>Ask for a Khmer House Suite Room, Khmer House Twin Deluxe Room, Bungalow Family Room, or Bungalow Friend Room.</p><a class="btn" href="https://t.me/secretlakehousekampot">Message Dates</a></div></article>
+        <article class="card"><div class="card-body"><h3>Reserve a Dining Hut</h3><p>Secure a poolside restaurant table, one of three wooden huts with grass roofs over the water, the Bamboo Hut, or a lake-view table for lunch or sunset. Dinner is available by advance booking only.</p><a class="btn" href="https://m.maxx.asia/shop/menu?id=576684683140756">View Menu</a></div></article>
+        <article class="card"><div class="card-body"><h3>Ask Before Driving</h3><p>Get directions, opening details, and road updates before you leave Kampot.</p><a class="btn" href="https://maps.app.goo.gl/hkxXBq9FVVr35K8K6">Open Map</a></div></article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="inner footer-grid">
+      <div><img class="footer-logo" src="assets/footer-logo.png" alt="Secret Lake House"></div><div class="footer-address"><strong>Address</strong><p>Road 1331, Secret Lake, Kaunsat Village, Toek Chhou District, Kampot, Cambodia</p></div>
+      <div><strong>Contact</strong><div class="contact-list"><a href="tel:+85590298687"><i data-lucide="phone"></i><span>+855 902 986 87</span></a><a href="mailto:info@secretlakehouse.com"><i data-lucide="mail"></i><span>info@secretlakehouse.com</span></a><a href="https://wa.me/85511969568"><i data-lucide="message-circle"></i><span>WhatsApp: +855 11 969 568</span></a><a href="https://t.me/secretlakehousekampot"><span class="brand-icon" data-telegram-icon></span><span>Telegram: @secretlakehousekampot</span></a></div></div>
+      <div><strong>Follow</strong><div data-social-links></div><div class="footer-legal"><span>&copy; 2026 Secret Lake House. All rights reserved.</span><div class="footer-policy-links"><a href="privacy.html">Privacy Policy</a><a href="booking-terms.html">Booking Terms</a><a href="house-rules.html">House Rules</a></div></div></div>
+    </div>
+  </footer>
+
+  <nav class="mobile-actions"><a class="mini-action" href="tel:+85590298687"><i data-lucide="bed-double"></i><span>Book Room</span></a><a class="mini-action" href="https://m.maxx.asia/shop/menu?id=576684683140756"><i data-lucide="utensils"></i><span>Reserve Table</span></a><a class="mini-action" href="https://wa.me/85511969568"><i data-lucide="message-circle"></i><span>WhatsApp</span></a><a class="mini-action" href="https://t.me/secretlakehousekampot"><span data-telegram-icon></span><span>Telegram</span></a></nav>
+</body>
+</html>
